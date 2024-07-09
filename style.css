@@ -141,12 +141,32 @@ ul li.marcado span:hover {
 }
 
 @media (max-width: 600px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    h2 img {
+        padding-left: 40px;
+        width: 100px;
+    }
+
     .input {
         flex-direction: column;
         align-items: stretch;
     }
 
     input {
+        flex: 1;
         margin-bottom: 10px;
+    }
+
+    input::placeholder {
+        text-align: center;
+    }
+
+    button {
+        flex: 0 0 100%;
+        border-radius: 30px;
+        margin-top: 10px;
     }
 }
