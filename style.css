@@ -64,6 +64,7 @@ input::placeholder {
 }
 
 button {
+    display: flex;
     cursor: pointer;
     border: none;
     border-radius: 30px;
@@ -136,11 +137,4 @@ ul li.marcado span {
 ul li.marcado span:hover {
     background: white;
     color: black;
-}
-
-@media (max-width: 600px) {
-    .input {
-        flex-direction: column;
-        align-items: stretch;
-    }
 }
