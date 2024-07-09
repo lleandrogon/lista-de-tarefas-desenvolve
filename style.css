@@ -43,7 +43,7 @@ h2 img {
     align-items: center;
     justify-content: space-between;
     outline: 3px groove black;
-    outline-offset: 5p;
+    outline-offset: 5px;
     border: none;
     border-radius: 30px;
     margin-bottom: 20px;

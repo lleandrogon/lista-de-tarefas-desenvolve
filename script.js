@@ -15,6 +15,8 @@ function adicionarEvento() {
     }
     caixa.value = '';
     salvar();
+
+    caixa.focus();
 }
 
 caixa.addEventListener('keyup', function(event) {
