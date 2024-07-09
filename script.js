@@ -3,7 +3,7 @@ let caixa = document.getElementById('caixa');
 
 function adicionarEvento() {
     if (caixa.value === '') {
-        alert('Digite algo para ser adicionado!')
+        alert('Digite algo para ser adicionado!');
     } else {
         let tarefa = document.createElement('li');
         tarefa.textContent = caixa.value;
